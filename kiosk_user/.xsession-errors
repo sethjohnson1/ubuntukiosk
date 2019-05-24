@@ -1,0 +1,9 @@
+Xsession: X session started for kiosk at Fri May 24 16:38:43 UTC 2019
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/kiosk/.Xauthority
+localuser:kiosk being added to access control list
+Openbox-Message: Unable to find a valid menu file "/var/lib/openbox/debian-menu.xml"
+/usr/bin/env: ‘python’: No such file or directory
+XIO:  fatal IO error 4 (Interrupted system call) on X server ":0"
+      after 862 requests (862 known processed) with 0 events remaining.

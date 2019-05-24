@@ -1,0 +1,119 @@
+[   768.668] 
+X.Org X Server 1.19.6
+Release Date: 2017-12-20
+[   768.668] X Protocol Version 11, Revision 0
+[   768.668] Build Operating System: Linux 4.4.0-138-generic x86_64 Ubuntu
+[   768.668] Current Operating System: Linux iscout18-9 4.15.0-50-generic #54-Ubuntu SMP Mon May 6 18:46:08 UTC 2019 x86_64
+[   768.668] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-4.15.0-50-generic root=UUID=8fcaef9a-209d-474c-b1e4-1d88d4562eb3 ro
+[   768.668] Build Date: 25 October 2018  04:11:27PM
+[   768.668] xorg-server 2:1.19.6-1ubuntu4.2 (For technical support please see http://www.ubuntu.com/support) 
+[   768.668] Current version of pixman: 0.34.0
+[   768.669] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[   768.669] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[   768.669] (==) Log file: "/home/kiosk/.local/share/xorg/Xorg.1.log", Time: Fri May 24 17:56:31 2019
+[   768.669] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[   768.669] (==) No Layout section.  Using the first Screen section.
+[   768.669] (==) No screen section available. Using defaults.
+[   768.669] (**) |-->Screen "Default Screen Section" (0)
+[   768.669] (**) |   |-->Monitor "<default monitor>"
+[   768.669] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[   768.669] (==) Automatically adding devices
+[   768.669] (==) Automatically enabling devices
+[   768.669] (==) Automatically adding GPU devices
+[   768.669] (==) Automatically binding GPU devices
+[   768.669] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[   768.669] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[   768.669] 	Entry deleted from font path.
+[   768.669] (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+[   768.669] 	Entry deleted from font path.
+[   768.669] (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+[   768.669] 	Entry deleted from font path.
+[   768.669] (WW) The directory "/usr/share/fonts/X11/Type1" does not exist.
+[   768.669] 	Entry deleted from font path.
+[   768.669] (WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
+[   768.669] 	Entry deleted from font path.
+[   768.669] (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+[   768.669] 	Entry deleted from font path.
+[   768.669] (==) FontPath set to:
+	/usr/share/fonts/X11/misc,
+	built-ins
+[   768.669] (==) ModulePath set to "/usr/lib/xorg/modules"
+[   768.669] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[   768.669] (II) Loader magic: 0x559520989020
+[   768.669] (II) Module ABI versions:
+[   768.669] 	X.Org ANSI C Emulation: 0.4
+[   768.669] 	X.Org Video Driver: 23.0
+[   768.669] 	X.Org XInput driver : 24.1
+[   768.669] 	X.Org Server Extension : 10.0
+[   768.671] (II) systemd-logind: took control of session /org/freedesktop/login1/session/_35
+[   768.672] (II) xfree86: Adding drm device (/dev/dri/card0)
+[   768.672] (EE) systemd-logind: failed to take device /dev/dri/card0: Operation not permitted
+[   768.672] (EE) /dev/dri/card0: failed to set DRM interface version 1.4: Permission denied
+[   768.673] (--) PCI:*(0:0:2:0) 8086:0412:1028:05c1 rev 6, Mem @ 0xf7800000/4194304, 0xe0000000/268435456, I/O @ 0x0000f000/64, BIOS @ 0x????????/131072
+[   768.673] (II) LoadModule: "glx"
+[   768.674] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[   768.674] (II) Module glx: vendor="X.Org Foundation"
+[   768.674] 	compiled for 1.19.6, module version = 1.0.0
+[   768.674] 	ABI class: X.Org Server Extension, version 10.0
+[   768.674] (==) Matched modesetting as autoconfigured driver 0
+[   768.674] (==) Matched fbdev as autoconfigured driver 1
+[   768.674] (==) Matched vesa as autoconfigured driver 2
+[   768.674] (==) Assigned the driver to the xf86ConfigLayout
+[   768.674] (II) LoadModule: "modesetting"
+[   768.674] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[   768.674] (II) Module modesetting: vendor="X.Org Foundation"
+[   768.674] 	compiled for 1.19.6, module version = 1.19.6
+[   768.675] 	Module class: X.Org Video Driver
+[   768.675] 	ABI class: X.Org Video Driver, version 23.0
+[   768.675] (II) LoadModule: "fbdev"
+[   768.675] (WW) Warning, couldn't open module fbdev
+[   768.675] (II) UnloadModule: "fbdev"
+[   768.675] (II) Unloading fbdev
+[   768.675] (EE) Failed to load module "fbdev" (module does not exist, 0)
+[   768.675] (II) LoadModule: "vesa"
+[   768.675] (WW) Warning, couldn't open module vesa
+[   768.675] (II) UnloadModule: "vesa"
+[   768.675] (II) Unloading vesa
+[   768.675] (EE) Failed to load module "vesa" (module does not exist, 0)
+[   768.675] (==) Matched modesetting as autoconfigured driver 0
+[   768.675] (==) Matched fbdev as autoconfigured driver 1
+[   768.675] (==) Matched vesa as autoconfigured driver 2
+[   768.675] (==) Assigned the driver to the xf86ConfigLayout
+[   768.675] (II) LoadModule: "modesetting"
+[   768.675] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[   768.675] (II) Module modesetting: vendor="X.Org Foundation"
+[   768.675] 	compiled for 1.19.6, module version = 1.19.6
+[   768.675] 	Module class: X.Org Video Driver
+[   768.675] 	ABI class: X.Org Video Driver, version 23.0
+[   768.675] (II) UnloadModule: "modesetting"
+[   768.675] (II) Unloading modesetting
+[   768.675] (II) Failed to load module "modesetting" (already loaded, 21909)
+[   768.675] (II) LoadModule: "fbdev"
+[   768.675] (WW) Warning, couldn't open module fbdev
+[   768.675] (II) UnloadModule: "fbdev"
+[   768.675] (II) Unloading fbdev
+[   768.675] (EE) Failed to load module "fbdev" (module does not exist, 0)
+[   768.675] (II) LoadModule: "vesa"
+[   768.675] (WW) Warning, couldn't open module vesa
+[   768.675] (II) UnloadModule: "vesa"
+[   768.675] (II) Unloading vesa
+[   768.675] (EE) Failed to load module "vesa" (module does not exist, 0)
+[   768.675] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[   768.675] (EE) 
+Fatal server error:
+[   768.675] (EE) parse_vt_settings: Cannot open /dev/tty0 (Permission denied)
+[   768.675] (EE) 
+[   768.675] (EE) 
+Please consult the The X.Org Foundation support 
+	 at http://wiki.x.org
+ for help. 
+[   768.675] (EE) Please also check the log file at "/home/kiosk/.local/share/xorg/Xorg.1.log" for additional information.
+[   768.675] (EE) 
+[   768.675] (WW) xf86CloseConsole: KDSETMODE failed: Bad file descriptor
+[   768.675] (WW) xf86CloseConsole: VT_GETMODE failed: Bad file descriptor
+[   768.676] (EE) Server terminated with error (1). Closing log file.
