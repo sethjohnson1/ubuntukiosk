@@ -10,4 +10,3 @@ sudo cp -r kiosk_user/. /home/kiosk
 sudo chown -R kiosk:kiosk /home/kiosk
 sudo chmod 500 /home/kiosk/.profile
 sudo chmod 500 /home/kiosk/.xinitrc
-sudo chmod 500 /home/kiosk/.profile
