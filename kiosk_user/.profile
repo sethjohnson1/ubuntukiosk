@@ -26,6 +26,6 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 export DISPLAY=:0
-if [ $DISPLAY ]; then
+if [ !$SSH_CLIENT ]; then
   exec startx ~/.xinitrc
 fi
